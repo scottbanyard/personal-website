@@ -5,3 +5,4 @@ Tech stack:
 - TypeScript
 - MaterialUI
 - Webpack
+- Firebase Hosting
