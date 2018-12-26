@@ -22,7 +22,6 @@ const NewRowDiv = styled.div`
 const Mail = styled(IoMdMail)`
   && {
     font-size: 1.5em;
-    cursor: pointer;
   }
 `;
 
