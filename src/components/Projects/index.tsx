@@ -28,6 +28,14 @@ const projects = [
       "https://github.com/scottbanyard/fortnite-hr-analysis/blob/master/fortnite_analysis.ipynb"
   },
   {
+    title: "Polar H7 BLE Handler",
+    date: "February 2018",
+    description:
+      "A Bluetooth Low Energy (BLE) handler for a Polar H7 Heart Rate Chest Strap. Collects results of Heart Rate and RR Intervals in real-time.",
+    tech: "Python, Bluetooth, Firebase",
+    url: "https://github.com/scottbanyard/polarh7-bluetooth"
+  },
+  {
     title: "Banyard IFA Ltd",
     date: "September 2017",
     description:
