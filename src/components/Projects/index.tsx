@@ -32,7 +32,7 @@ const projects = [
     date: "February 2018",
     description:
       "A Bluetooth Low Energy (BLE) handler for a Polar H7 Heart Rate Chest Strap. Collects results of Heart Rate and RR Intervals in real-time.",
-    tech: "Python, Bluetooth, Firebase",
+    tech: "Python, Bluetooth, Firebase, Polar H7 Heart Rate Monitor",
     url: "https://github.com/scottbanyard/polarh7-bluetooth"
   },
   {
