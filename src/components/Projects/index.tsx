@@ -57,7 +57,7 @@ const projects = [
     tech:
       "AngularJS, Bootstrap, Phonegap, Beta Testing / Publication (iOS & Android)",
     url:
-      "https://itunes.apple.com/us/app/idrive-theory-test-uk-pl-2017/id1192733077?mt=8"
+      "https://play.google.com/store/apps/details?id=io.cordova.idrivetheoryforcars.pl.release"
   },
   {
     title: "Hudu",
