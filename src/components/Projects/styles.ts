@@ -18,6 +18,12 @@ export const CustomGrid = styled.div`
   && {
     width: 33.33333%;
   }
+
+  @media (max-width: 1300px) {
+    && {
+      width: 50%;
+    }
+  }
 `;
 
 export const StyledTypography = styled(Typography)`
