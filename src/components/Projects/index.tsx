@@ -1,6 +1,6 @@
 import * as React from "react";
-import styled from "styled-components";
 import { ProjectCard } from "./ProjectCard";
+import { StyledDiv, CustomGrid, Container, StyledTypography } from "./styles";
 
 export interface IProject {
   title: string;
@@ -12,17 +12,33 @@ export interface IProject {
 
 const projects = [
   {
-    title: "Portfolio",
-    date: "December 2018",
+    title: "Basic React Template",
+    date: "February 2020",
     description:
-      "Personal website displaying portfolio of some projects completed.",
+      "A basic react application template with useful beginner packages.",
+    tech: "ReactJS, TypeScript, Webpack, Husky",
+    url: "https://github.com/scottbanyard/basic-react-template"
+  },
+  {
+    title: "www.scottbanyard.com",
+    date: "December 2018 - (Ongoing)",
+    description:
+      "The source code to this website.",
     tech: "ReactJS, MaterialUI, TypeScript, Webpack, Firebase",
     url: "https://github.com/scottbanyard/personal-website"
   },
   {
-    title: "Fortnite Heart Rate Analysis",
+    title: "Stress Reduction using VR and Multisensory Interactions",
+    date: "May 2018",
+    description:
+      "My thesis at Bristol was in the Human-Computer Interactions (HCI) space, researching into contributing towards effective stress reduction techniques.",
+    tech: "Python, Unity, Oculus Rift",
+    url: "https://www.linkedin.com/in/scottbanyard/detail/treasury/education:310007712/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAABsmvi8BlLYAIvzaoo9N_mHoPpMSgxlSUWE%2C1580421276568)&section=education%3A310007712&treasuryCount=1"
+  },
+  {
+    title: "Fortnite HR Analysis",
     date: "March 2018",
-    description: "Heart Rate Analysis whilst playing the game Fortnite on PS4.",
+    description: "Analysing Heart Rate (HR) during the game Fortnite.",
     tech: "Python, Jupyter Notebook, Polar H7 Heart Rate Monitor",
     url:
       "https://github.com/scottbanyard/fortnite-hr-analysis/blob/master/fortnite_analysis.ipynb"
@@ -32,12 +48,12 @@ const projects = [
     date: "February 2018",
     description:
       "A Bluetooth Low Energy (BLE) handler for a Polar H7 Heart Rate Chest Strap. Collects results of Heart Rate and RR Intervals in real-time.",
-    tech: "Python, Bluetooth, Firebase, Polar H7 Heart Rate Monitor",
+    tech: "Python, Bluetooth, Firebase, Polar H7 HR Monitor",
     url: "https://github.com/scottbanyard/polarh7-bluetooth"
   },
   {
     title: "Banyard IFA Ltd",
-    date: "September 2017",
+    date: "September 2017 - (Ongoing)",
     description:
       "Business website created and maintained for Banyard Independent Advice Service Ltd.",
     tech: "AngularJS, Node.js, Bootstrap, Firebase",
@@ -46,18 +62,9 @@ const projects = [
   {
     title: "Dataalgs",
     date: "May 2017",
-    description: "A Data Structures and Algorithms Learning Resource.",
+    description: "An artificial Data Structures and Algorithms Learning Resource created during a Web Development course.",
     tech: "AngularJS, Node.js, TypeScript, Express.js, SQL, Bootstrap",
     url: "https://github.com/scottbanyard/dataalgs-website"
-  },
-  {
-    title: "iDrive",
-    date: "August 2016",
-    description: "A Driving Theory cross-platform application (co-developed).",
-    tech:
-      "AngularJS, Bootstrap, Phonegap, Beta Testing / Publication (iOS & Android)",
-    url:
-      "https://play.google.com/store/apps/details?id=io.cordova.idrivetheoryforcars.pl.release"
   },
   {
     title: "Hudu",
@@ -78,28 +85,19 @@ const projects = [
   }
 ] as IProject[];
 
-const StyledDiv = styled.div`
-  margin: 30px 100px 10px 100px;
-  display: flex;
-  flex-wrap: wrap;
-`;
-
-const CustomGrid = styled.div`
-  && {
-    width: 33.33333%;
-  }
-`;
-
 export const Projects = () => {
   return (
-    <StyledDiv>
-      {projects.map((p, i) => {
-        return (
-          <CustomGrid key={i}>
-            <ProjectCard project={p} />
-          </CustomGrid>
-        );
-      })}
-    </StyledDiv>
+    <Container>
+      <StyledTypography>Projects</StyledTypography>
+      <StyledDiv>
+        {projects.map((p, i) => {
+          return (
+            <CustomGrid key={i}>
+              <ProjectCard project={p} />
+            </CustomGrid>
+          );
+        })}
+      </StyledDiv>
+    </Container>
   );
 };

@@ -3,20 +3,19 @@ import { Picture } from "../Picture";
 import { SocialLinks } from "../SocialLinks";
 import { Projects } from "../Projects";
 import { Biography } from "../Biography";
-
-import styled from "styled-components";
-
-const Container = styled.div`
-  padding: 20px;
-`;
+import { Container, LeftSide, RightSide } from "./styles";
 
 export const Layout = () => (
   <div>
     <Container>
-      <Picture />
-      <Biography />
-      <SocialLinks />
-      <Projects />
+      <LeftSide>
+        <Picture />
+        <Biography />
+        <SocialLinks />
+      </LeftSide>
+      <RightSide>
+        <Projects />
+      </RightSide>
     </Container>
   </div>
 );
