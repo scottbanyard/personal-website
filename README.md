@@ -1,8 +1,6 @@
 # Personal Website
 
-https://www.scottbanyard.com/
-
-Portfolio created to demonstrate web development skills and display projects.
+Source code to this website - https://www.scottbanyard.com/
 
 ### Technical Stack
 - ReactJS
