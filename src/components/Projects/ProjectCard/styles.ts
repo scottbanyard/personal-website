@@ -4,12 +4,13 @@ import { Card, CardContent, Typography } from "@material-ui/core";
 export const StyledCard = styled(Card)`
   && {
     margin: 10px;
+    overflow-y: auto;
   }
 ` as any;
 
 export const StyledCardContent = styled(CardContent)`
   && {
-    min-height: 200px;
+    height: 220px;
   }
 ` as any;
 

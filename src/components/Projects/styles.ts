@@ -19,7 +19,7 @@ export const CustomGrid = styled.div`
     width: 33.33333%;
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1500px) {
     && {
       width: 50%;
     }

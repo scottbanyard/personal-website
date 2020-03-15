@@ -10,7 +10,7 @@ export const projects = [
     url: "https://github.com/scottbanyard/basic-react-template"
   },
   {
-    title: "www.scottbanyard.com",
+    title: "scottbanyard.com",
     date: "December 2018 - (Ongoing)",
     description:
       "The source code to this website.",
@@ -21,7 +21,7 @@ export const projects = [
     title: "Stress Reduction using VR and Multisensory Interactions",
     date: "May 2018",
     description:
-      "My thesis at Bristol was in the Human-Computer Interactions (HCI) space, researching into contributing towards effective stress reduction techniques.",
+      "My thesis at Bristol was in the Human-Computer Interaction (HCI) space, researching into stress reduction techniques.",
     tech: "Python, Unity, Oculus Rift",
     url: "https://www.linkedin.com/in/scottbanyard/detail/treasury/education:310007712/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAABsmvi8BlLYAIvzaoo9N_mHoPpMSgxlSUWE%2C1580421276568)&section=education%3A310007712&treasuryCount=1"
   },
@@ -37,12 +37,12 @@ export const projects = [
     title: "Polar H7 BLE Handler",
     date: "February 2018",
     description:
-      "A Bluetooth Low Energy (BLE) handler for a Polar H7 Heart Rate Chest Strap. Collects results of Heart Rate and RR Intervals in real-time.",
+      "A Bluetooth Low Energy (BLE) handler for a Polar H7 Heart Rate Chest Strap.",
     tech: "Python, Bluetooth, Firebase, Polar H7 HR Monitor",
     url: "https://github.com/scottbanyard/polarh7-bluetooth"
   },
   {
-    title: "Banyard IFA Ltd",
+    title: "banyardifa.co.uk",
     date: "September 2017 - (Ongoing)",
     description:
       "Business website created and maintained for Banyard Independent Advice Service Ltd.",
@@ -53,7 +53,7 @@ export const projects = [
     title: "Dataalgs",
     date: "May 2017",
     description: "An artificial Data Structures and Algorithms Learning Resource created during a Web Development course.",
-    tech: "AngularJS, Node.js, TypeScript, Express.js, SQL, Bootstrap",
+    tech: "AngularJS, Node.js, TypeScript, Express.js, SQL",
     url: "https://github.com/scottbanyard/dataalgs-website"
   },
   {
