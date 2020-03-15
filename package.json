@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --hot --open",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run lint & npm run build & firebase deploy",
+    "deploy": "npm run lint && npm run build && firebase deploy",
     "lint": "tslint --project ./"
   },
   "author": "",
