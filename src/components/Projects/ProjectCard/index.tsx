@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import { CardActions, Button, Typography } from "@material-ui/core";
-import { IProject } from "../index";
+import { IProject } from "../types";
 import { StyledCard, StyledCardContent, StyledTypography, StyledTitleTypography, StyledLink } from "./styles";
 
 export interface IProjectProps {
@@ -29,9 +29,3 @@ export const ProjectCard = (props: IProjectProps) => {
     </StyledCard>
   );
 };
-
-//      // <CardActions>
-      //   <Button target="_blank" href={url}>
-      //     Explore
-      //   </Button>
-      // </CardActions>

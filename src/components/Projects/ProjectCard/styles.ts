@@ -25,12 +25,16 @@ export const StyledTitleTypography = styled(Typography)`
     font-size: 13px;
     font-weight: 400;
   }
+
+  &:hover {
+    color: rgb(35, 51, 132);
+  }
 ` as any;
 
 export const StyledLink = styled.a`
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: rgb(35, 51, 132);
   }
 `;

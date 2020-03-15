@@ -21,13 +21,17 @@ export const StyledLink = styled.a`
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: rgb(35, 51, 132);
   }
 `;
 
 export const StyledTypography = styled(Typography)`
   && {
     font-weight: 300;
+  }
+
+  &:hover {
+    color: rgb(35, 51, 132);
   }
 ` as any;
 
