@@ -2,6 +2,14 @@ import { IProject } from "./types";
 
 export const projects = [
   {
+    title: "findmynearest parkrun",
+    date: "March 2020 - (Ongoing)",
+    description:
+      "A mapping application that allows you to find your nearest parkrun from a given location.",
+    tech: "ReactJS, TypeScript, react-map-gl, Webpack, Husky",
+    url: "https://findmynearest-parkrun.firebaseapp.com/"
+  },
+  {
     title: "Basic React Template",
     date: "February 2020",
     description:

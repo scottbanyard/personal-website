@@ -9,7 +9,6 @@ export const StyledDiv = styled.div`
 export const Container = styled.div`
   margin: 30px 100px 10px 100px;
   padding: 25px;
-  border: 1px solid rgb(127, 0, 0);
   border: 1px solid rgba(214, 205, 205, 0.5);
   background-clip: padding-box;
 `;
