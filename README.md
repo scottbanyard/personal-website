@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-	<img src="https://github.com/scottbanyard/personal-website/blob/master/resources/demo.png" width=800>
+	<img src="https://github.com/scottbanyard/personal-website/blob/master/resources/demo.jpeg" width=800>
 </p>
 
 ## Overview
