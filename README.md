@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-	<img src="https://github.com/scottbanyard/findmynearest-parkrun/blob/master/resources/demo.png">
+	<img src="https://github.com/scottbanyard/personal-website/blob/master/resources/demo.png" width=800>
 </p>
 
 ## Overview
