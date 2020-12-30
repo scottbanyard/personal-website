@@ -78,7 +78,6 @@ export const projects = [
     description:
       "Translates numbers, colours and months. Quizzes also available within the software.",
     tech: "C",
-    url:
-      "https://github.com/scottbanyard/french-programs-C/blob/master/frenchTranslations.c"
+    url: "https://github.com/scottbanyard/french-programs-C"
   }
 ] as IProject[];
