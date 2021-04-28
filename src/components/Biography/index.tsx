@@ -1,5 +1,5 @@
-import * as React from "react";
-import { StyledDiv, StyledTypography } from "./styles";
+import * as React from 'react';
+import { StyledDiv, StyledTypography } from './styles';
 
 export const Biography = () => {
   return (

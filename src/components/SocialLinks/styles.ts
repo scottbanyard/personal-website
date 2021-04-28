@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { IoLogoLinkedin, IoLogoGithub, IoMdMail } from "react-icons/io";
-import { Typography } from "@material-ui/core";
+import styled from 'styled-components';
+import { IoLogoLinkedin, IoLogoGithub, IoMdMail } from 'react-icons/io';
+import { Typography } from '@material-ui/core';
 
 export const StyledDiv = styled.div`
   text-align: center;

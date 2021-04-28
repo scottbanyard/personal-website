@@ -1,6 +1,14 @@
-import * as React from "react";
-import { Typography, IconButton } from "@material-ui/core";
-import { StyledDiv, NewRowDiv, Mail, LinkedIn, Github, StyledLink, StyledTypography } from "./styles";
+import * as React from 'react';
+import { Typography, IconButton } from '@material-ui/core';
+import {
+  StyledDiv,
+  NewRowDiv,
+  Mail,
+  LinkedIn,
+  Github,
+  StyledLink,
+  StyledTypography
+} from './styles';
 
 export const SocialLinks = () => {
   return (
@@ -21,7 +29,9 @@ export const SocialLinks = () => {
       </IconButton>
       <NewRowDiv>
         <Mail />
-        <StyledLink href="mailto:me@scottbanyard.com"><StyledTypography>me@scottbanyard.com</StyledTypography></StyledLink>
+        <StyledLink href="mailto:me@scottbanyard.com">
+          <StyledTypography>me@scottbanyard.com</StyledTypography>
+        </StyledLink>
       </NewRowDiv>
     </StyledDiv>
   );

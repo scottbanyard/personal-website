@@ -1,7 +1,7 @@
-import * as React from "react";
-import { ProjectCard } from "./ProjectCard";
-import { StyledDiv, CustomGrid, Container, StyledTypography } from "./styles";
-import { projects } from "./projects";
+import * as React from 'react';
+import { ProjectCard } from './ProjectCard';
+import { StyledDiv, CustomGrid, Container, StyledTypography } from './styles';
+import { projects } from './projects';
 
 export const Projects = () => {
   return (
