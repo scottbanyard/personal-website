@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+script:
+- npm run lint
+- npm run build
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: CssIgl/u4mvy8sdoBxE/dNcq6C9QzsNyvgcyP1xlcMr3yC5wrtU1bWxIV5rqj6boS/mY3GopFd01KlSKt+bwX6lO/cQQPa5CrRhKPjL/5iHQG9qTxnS7S8KMkYU4olvgeQnS7VgBQnyI/vgNrTQvchRrTdN+YCw/ZdgFofjmy6UVrRRcmCC8W6p8NJvTfXGUlEcOtAV+2OGw472OYcFtYu1ntahcv0I1FBn162BrGjWzgqssgXB3YoxUr38j1Yd7uCQuDSoA52XLJKKI4ny4Nv7j7xl+t1y2qTMxZX6IGrrJDlagHCrrgY0FN7dVqHl8iyqo+b6yEQrrpUDgHJxR1FP9QxfDktJisoMuQHasak1F/IwpLe6qVoiu4G53cOGzbc0nRUVgwrww+x4FSrjAmfjtmp63K5MyV2L58GrTAhmRfEjhklGl2XwAjGoPY+kDBO1qQm9aUAaJeVRPEEM4IGOLd69IwMROmA93HxqUUMKFmZOVd9WtyQyPCOLMat9rPlcTUhwK+Lt5X30lm6zlGyTY8gQLKUIp6Luh37uaKzBbk0WiRRClCKLtRwNp+IHDHNjR5W59WxnjQXG6S4huiMqdTwctNSxcIsQwCEro+72XrKYJkXFadgT0yf4qmsTpJyKMQN3zMBppOyhF5LM9pwUR4KDsfM1lwASbZSvKVKA=
+  on:
+    branch: master
