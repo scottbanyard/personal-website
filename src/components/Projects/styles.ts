@@ -10,6 +10,13 @@ export const Container = styled.div`
   margin: 30px 100px 10px 100px;
   padding: 25px;
   background-clip: padding-box;
+
+  @media (max-width: 1500px) {
+    && {
+      margin: 30px 0 0 0;
+      padding: 0;
+    }
+  }
 `;
 
 export const CustomGrid = styled.div`
@@ -19,7 +26,7 @@ export const CustomGrid = styled.div`
 
   @media (max-width: 1500px) {
     && {
-      width: 50%;
+      width: 33.33333%;
     }
   }
 `;
