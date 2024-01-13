@@ -9,7 +9,6 @@ export const StyledDiv = styled.div`
 export const Container = styled.div`
   margin: 30px 100px 10px 100px;
   padding: 25px;
-  border: 1px solid rgba(214, 205, 205, 0.5);
   background-clip: padding-box;
 `;
 
@@ -29,6 +28,6 @@ export const StyledTypography = styled(Typography)`
   && {
     font-weight: 300;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 ` as any;

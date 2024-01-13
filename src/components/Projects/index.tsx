@@ -6,7 +6,7 @@ import { projects } from './projects';
 export const Projects = () => {
   return (
     <Container>
-      <StyledTypography>Projects</StyledTypography>
+      <StyledTypography variant={'h4'}>Projects</StyledTypography>
       <StyledDiv>
         {projects.map((p, i) => {
           return (
