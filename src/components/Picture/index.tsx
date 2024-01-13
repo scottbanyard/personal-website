@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyledDiv, StyledTypography, StyledAvatar } from './styles';
+import { StyledDiv, StyledAvatar } from './styles';
 
 export const Picture = () => {
   return (

@@ -19,6 +19,7 @@ export const NewRowDiv = styled.div`
 
 export const StyledLink = styled.a`
   text-decoration: none;
+  color: black;
   &:hover {
     text-decoration: underline;
     text-decoration-color: rgb(35, 51, 132);
