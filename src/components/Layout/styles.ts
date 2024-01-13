@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Grid = styled.div`
   padding-left: 18vw;
   padding-right: 18vw;
   padding-top: 20px;
@@ -26,3 +26,11 @@ export const LeftSide = styled.div`
 `;
 
 export const RightSide = styled.div``;
+
+export const ProjectContainer = styled.div`
+  padding-left: 18vw;
+  padding-right: 18vw;
+  padding-bottom: 20px;
+  display: flex;
+  background-color: #f5f5f5;
+`;

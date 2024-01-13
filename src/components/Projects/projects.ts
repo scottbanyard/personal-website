@@ -3,7 +3,7 @@ import { IProject } from './types';
 export const projects = [
   {
     title: 'findmynearest parkrun',
-    date: 'March 2020 - (Ongoing)',
+    date: 'March 2021',
     description:
       'A mapping application that allows you to find your nearest parkrun from a given location.',
     tech: 'ReactJS, TypeScript, react-map-gl, Webpack, Husky',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'scottbanyard.com',
-    date: 'December 2018 - (Ongoing)',
+    date: 'December 2018 & forever changing',
     description: 'The source code to this website.',
     tech: 'ReactJS, MaterialUI, TypeScript, Webpack, Firebase',
     url: 'https://github.com/scottbanyard/personal-website'
@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     title: 'banyardifa.co.uk',
-    date: 'September 2017 - (Ongoing)',
+    date: 'September 2017)',
     description:
       'Business website created and maintained for Banyard Independent Advice Service Ltd.',
     tech: 'AngularJS, Node.js, Bootstrap, Firebase',

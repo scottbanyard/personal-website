@@ -3,19 +3,25 @@ import { Picture } from '../Picture';
 import { SocialLinks } from '../SocialLinks';
 import { Projects } from '../Projects';
 import { Biography } from '../Biography';
-import { Container, LeftSide, RightSide } from './styles';
+import { Globe } from '../Globe';
+import { Introduction } from '../Introduction';
+import { Grid, LeftSide, ProjectContainer, RightSide } from './styles';
 
 export const Layout = () => (
   <div>
-    <Container>
+    <Grid>
       <LeftSide>
         <Picture />
         <Biography />
         <SocialLinks />
       </LeftSide>
       <RightSide>
-        <Projects />
+        <Introduction />
+        <Globe />
       </RightSide>
-    </Container>
+    </Grid>
+    <ProjectContainer>
+      <Projects />
+    </ProjectContainer>
   </div>
 );
