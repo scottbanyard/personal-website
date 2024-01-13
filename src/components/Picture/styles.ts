@@ -14,8 +14,8 @@ export const StyledTypography = styled(Typography)`
 
 export const StyledAvatar = styled(Avatar)`
   && {
-    width: 240px;
-    height: 240px;
+    width: 350px;
+    height: 420px;
     margin: auto;
   }
 ` as any;
