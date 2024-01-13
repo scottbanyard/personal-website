@@ -10,5 +10,6 @@ export const StyledAvatar = styled(Avatar)`
     width: 350px;
     height: 420px;
     margin: auto;
+    border-radius: 25%;
   }
 ` as any;
