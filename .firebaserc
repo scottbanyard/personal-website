@@ -1,5 +1,6 @@
 {
   "projects": {
-    "production": "scott-banyard-personal"
+    "production": "scott-banyard-personal",
+    "default": "scott-banyard-personal"
   }
 }
