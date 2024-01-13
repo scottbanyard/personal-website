@@ -52,10 +52,10 @@ export const projects = [
   },
   {
     title: 'banyardifa.co.uk',
-    date: 'September 2017)',
+    date: 'September 2017',
     description:
       'Business website created and maintained for Banyard Independent Advice Service Ltd.',
-    tech: 'AngularJS, Node.js, Bootstrap, Firebase',
+    tech: 'AngularJS, Node.js, Bootstrap, Firebase, Github Actions',
     url: 'https://www.banyardifa.co.uk/'
   },
   {
