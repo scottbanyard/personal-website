@@ -4,6 +4,12 @@ import { Typography } from '@material-ui/core';
 export const StyledDiv = styled.div`
   text-align: center;
   padding: 10vh 10vh 3vh 10vh;
+
+  @media (max-width: 1300px) {
+    && {
+      padding: 4vh 10vh 3vh 10vh;
+    }
+  }
 `;
 
 export const StyledTitle = styled(Typography)``;
