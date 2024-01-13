@@ -15,7 +15,7 @@ export const Grid = styled.div`
 `;
 
 export const LeftSide = styled.div`
-  margin-top: 25px;
+  margin-top: 4vh;
 
   @media (max-width: 1300px) {
     && {
