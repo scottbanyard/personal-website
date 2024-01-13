@@ -5,13 +5,6 @@ export const StyledDiv = styled.div`
   text-align: center;
 `;
 
-export const StyledTypography = styled(Typography)`
-  && {
-    margin-bottom: 20px;
-    font-weight: 300;
-  }
-` as any;
-
 export const StyledAvatar = styled(Avatar)`
   && {
     width: 350px;

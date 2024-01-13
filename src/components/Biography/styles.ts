@@ -8,7 +8,5 @@ export const StyledDiv = styled.div`
 export const StyledTypography = styled(Typography)`
   && {
     margin-top: 24px;
-    font-weight: 300;
-    font-size: 14px;
   }
 ` as any;
