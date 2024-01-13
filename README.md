@@ -27,8 +27,11 @@ This portfolio can be seen via my custom domain - [https://www.scottbanyard.com]
 This runs the web-application using Webpack's development server.
 
 ## Technologies
+
 - ReactJS
 - TypeScript
 - MaterialUI
 - Webpack
+- React Globe GL
 - Firebase Hosting
+- Github Actions

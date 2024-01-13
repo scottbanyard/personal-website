@@ -6,7 +6,7 @@ export const projects = [
     date: 'March 2021',
     description:
       'A mapping application that allows you to find your nearest parkrun from a given location.',
-    tech: 'ReactJS, TypeScript, react-map-gl, Webpack, Husky',
+    tech: 'ReactJS, TypeScript, react-map-gl, Webpack, Husky, Github Actions',
     url: 'https://findmynearest-parkrun.firebaseapp.com/'
   },
   {
@@ -21,14 +21,15 @@ export const projects = [
     title: 'scottbanyard.com',
     date: 'December 2018 & forever changing',
     description: 'The source code to this website.',
-    tech: 'ReactJS, MaterialUI, TypeScript, Webpack, Firebase',
+    tech:
+      'ReactJS, MaterialUI, TypeScript, Webpack, React Globe GL, Firebase, Husky, Github Actions',
     url: 'https://github.com/scottbanyard/personal-website'
   },
   {
     title: 'Stress Reduction using VR and Multisensory Interactions',
     date: 'May 2018',
     description:
-      'My thesis at Bristol was in the Human-Computer Interaction (HCI) space, researching into stress reduction techniques.',
+      'My thesis at Bristol was in the Human-Computer Interaction (HCI) space, researching into stress reduction techniques. The link takes you to a draft paper that was submitted to the CHI conference.',
     tech: 'Python, Unity, Oculus Rift',
     url:
       'https://www.linkedin.com/in/scottbanyard/detail/treasury/education:310007712/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAABsmvi8BlLYAIvzaoo9N_mHoPpMSgxlSUWE%2C1580421276568)&section=education%3A310007712&treasuryCount=1'
