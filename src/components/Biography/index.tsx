@@ -5,7 +5,7 @@ export const Biography = () => {
   return (
     <StyledDiv>
       <StyledTypography variant="subheading">
-        Software Engineer based in London
+        People Leader, Software Engineer & Mediocre Runner based in London
       </StyledTypography>
       <StyledTypography variant="subheading">
         MEng Computer Science
