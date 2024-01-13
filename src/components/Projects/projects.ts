@@ -32,7 +32,7 @@ export const projects = [
       'My thesis at Bristol was in the Human-Computer Interaction (HCI) space, researching into stress reduction techniques. The link takes you to a draft paper that was submitted to the CHI conference.',
     tech: 'Python, Unity, Oculus Rift',
     url:
-      'https://www.linkedin.com/in/scottbanyard/detail/treasury/education:310007712/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAABsmvi8BlLYAIvzaoo9N_mHoPpMSgxlSUWE%2C1580421276568)&section=education%3A310007712&treasuryCount=1'
+      'https://www.linkedin.com/in/scottbanyard/overlay/1580421276568/single-media-viewer/?profileId=ACoAABsmvi8BlLYAIvzaoo9N_mHoPpMSgxlSUWE'
   },
   {
     title: 'Fortnite HR Analysis',

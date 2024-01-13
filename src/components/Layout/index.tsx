@@ -5,10 +5,16 @@ import { Projects } from '../Projects';
 import { Biography } from '../Biography';
 import { Globe } from '../Globe';
 import { Introduction } from '../Introduction';
-import { Grid, LeftSide, ProjectContainer, RightSide } from './styles';
+import {
+  Grid,
+  LeftSide,
+  ProjectContainer,
+  RightSide,
+  StyledDiv
+} from './styles';
 
 export const Layout = () => (
-  <div>
+  <StyledDiv>
     <Grid>
       <LeftSide>
         <Picture />
@@ -23,5 +29,5 @@ export const Layout = () => (
     <ProjectContainer>
       <Projects />
     </ProjectContainer>
-  </div>
+  </StyledDiv>
 );

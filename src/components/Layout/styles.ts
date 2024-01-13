@@ -33,3 +33,7 @@ export const ProjectContainer = styled.div`
   display: flex;
   background-color: #f5f5f5;
 `;
+
+export const StyledDiv = styled.div`
+  overflow-x: none;
+`;

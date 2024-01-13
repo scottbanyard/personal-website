@@ -17,7 +17,7 @@ export const Globe = () => {
   return (
     <StyledDiv>
       <ReactGlobe
-        width={1000}
+        width={700}
         height={400}
         backgroundColor="rgba(0,0,0,0)"
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
