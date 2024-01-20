@@ -1,7 +1,6 @@
 import * as React from 'react';
-import styled from 'styled-components';
-import { CardActions, Button, Typography } from '@material-ui/core';
 import { IProject } from '../types';
+import { CardMedia } from '@material-ui/core';
 import {
   StyledCard,
   StyledCardContent,
@@ -15,9 +14,18 @@ export interface IProjectProps {
 }
 
 export const ProjectCard = (props: IProjectProps) => {
-  const { title, date, description, tech, url } = props.project;
+  const {
+    title,
+    date,
+    description,
+    tech,
+    url,
+    image,
+    imageLabel
+  } = props.project;
   return (
     <StyledCard>
+      <CardMedia component="img" height="150" image={image} alt={imageLabel} />
       <StyledCardContent>
         <StyledLink target="_blank" href={url}>
           <StyledTitleTypography gutterBottom>{title}</StyledTitleTypography>
