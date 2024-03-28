@@ -13,11 +13,10 @@ export const Introduction = () => {
         <strong>London</strong>.
       </StyledParagraph>
       <StyledParagraph variant="h6">
-        You will then see a list of personal, software projects that have
-        probably been ditched by now. Who knows what the point of this website
-        is? Feel free to contact me about{' '}
-        <strong>team and people leadership</strong>, <strong>software</strong>{' '}
-        or non-techy things such as <strong>running</strong>.
+        You will see a list of personal projects below that have probably been
+        abandoned by now. Feel free to contact me about{' '}
+        <strong>team and people leadership</strong>,{' '}
+        <strong>software development</strong>, and <strong>running</strong>.
       </StyledParagraph>
     </StyledDiv>
   );
