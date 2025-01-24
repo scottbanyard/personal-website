@@ -4,19 +4,16 @@ import { StyledDiv, StyledTitle, StyledParagraph } from './styles';
 export const Introduction = () => {
   return (
     <StyledDiv>
-      <StyledTitle variant="h2">
-        Hi, I'm Scott. Welcome to my slightly bland page.
-      </StyledTitle>
+      <StyledTitle variant="h2">Hi, I'm Scott.</StyledTitle>
       <StyledParagraph variant="h6">
-        As you may see below on the fancy, interactive 3D globe that I
-        definitely did not create, I am currently based in{' '}
-        <strong>London</strong>.
+        As you may see below on the fancy, interactive 3D globe, I am currently
+        based in <strong>London</strong>.
       </StyledParagraph>
       <StyledParagraph variant="h6">
-        You will see a list of personal projects below that have probably been
-        abandoned by now. Feel free to contact me about{' '}
+        Below you will find a list of personal projects that have not had much
+        love recently. Reach out to me if you'd like to talk about{' '}
         <strong>team and people leadership</strong>,{' '}
-        <strong>software development</strong>, and <strong>running</strong>.
+        <strong>software engineering</strong>, and <strong>running</strong>.
       </StyledParagraph>
     </StyledDiv>
   );
